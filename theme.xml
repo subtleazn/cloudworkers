@@ -5,11 +5,7 @@
     <meta content='*' http-equiv='Access-Control-Allow-Origin'/>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
     <meta content='7b21eb8bc8b5747bf4a75b81d6eb839fffd36641' name='naver-site-verification'/>
-    <b:if cond='data:view.isHomepage'>
-      <title><data:blog.title.escaped/></title>
-    <b:else/>
-      <title><data:view.title.escaped/> - <data:blog.title.escaped/></title>
-    </b:if>
+    <title><data:view.title.escaped/></title>
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({&#39;gtm.start&#39;:
 new Date().getTime(),event:&#39;gtm.js&#39;});var f=d.getElementsByTagName(s)[0],
